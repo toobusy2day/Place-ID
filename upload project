@@ -1,0 +1,14 @@
+# Initialize Git (only needed once)
+git init  
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# Set the GitHub repository (replace with your repo URL)
+git remote add origin https://github.com/YOUR_USERNAME/placeid-finder.git
+
+# Push code to GitHub
+git push -u origin main
